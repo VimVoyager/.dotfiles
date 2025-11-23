@@ -1,14 +1,16 @@
 [user]
-        name = Leonard Marshall Afzal
-        email = 86576612+LMarshallAfzal@users.noreply.github.com
+        name = VimVoyager
+        email = 86576612+VimVoyager@users.noreply.github.com
 [alias]
-        st = status -sb
+        st = status
         ch = checkout
         co = commit
         cm = commit -m
         p = push
-        fuck = git reset --hard
+        fuck = reset --hard
         last = log -1 HEAD --stat
         count = rev-list --count
 [help]
         autocorrect = 1
+[core]
+	editor = vim

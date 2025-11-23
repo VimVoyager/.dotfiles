@@ -259,6 +259,7 @@ gitInit() {
 export HISTSIZE=1000000
 export HISTFILESIZE=1000000000
 
+# Dotnet path
 export DOTNET_ROOT=$HOME/.dotnet
 export PATH=$PATH:$DOTNET_ROOT:$DOTNET_ROOT/tools
 
@@ -268,3 +269,9 @@ source ~/.aliases
 # Added by LM Studio CLI (lms)
 export PATH="$PATH:/home/leonard/.lmstudio/bin"
 export PATH=~/.npm-global/bin:$PATH
+
+# Android SDK PATH
+export ANDROID_HOME="/opt/android-sdk"
+
+# go path
+export PATH=$PATH:/usr/local/go/bin

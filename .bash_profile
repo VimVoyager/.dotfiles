@@ -79,3 +79,6 @@ export HISTSIZE=1000000
 export HISTFILESIZE=1000000000
 
 source ~/.aliases
+
+# Added by LM Studio CLI (lms)
+export PATH="$PATH:/home/leonard/.lmstudio/bin"

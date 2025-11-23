@@ -9,5 +9,5 @@ cyan=$(tput setaf 51)
 red=$(tput setaf 1) 
 white=$(tput setaf 231)
 
-# export PS1="\[$yellow\]\u@\h \[$cyan\]\w \[$red\]\$(parse_git_branch)\[$white\]$ "
-export PS1="\[$yellow\]leonard@macbook-pro \[$cyan\]\w \[$red\]\$(parse_git_branch)\[$white\]$ "
+export PS1="\[$yellow\]\u@\h \[$cyan\]\W \[$red\]\$(parse_git_branch)\[$white\]$ "
+# export PS1="\[$yellow\]leonard@macbook-pro \[$cyan\]\w \[$red\]\$(parse_git_branch)\[$white\]$ "
