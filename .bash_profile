@@ -3,8 +3,8 @@ set -o nounset
 export EDITOR="$VISUAL"
 export VISUAL=vim
 
-if [ -e $HOME/.aliases ]; then
-    source $HOME/.aliases
+if [ -e $HOME/.bash_alias ]; then
+    source $HOME/.bash_alias
 fi
 
 if [ -e $HOME/.bash_prompt ]; then
@@ -78,7 +78,7 @@ gitInit() {
 export HISTSIZE=1000000
 export HISTFILESIZE=1000000000
 
-source ~/.aliases
+source ~/.bash_alias
 
 # Added by LM Studio CLI (lms)
 export PATH="$PATH:/home/leonard/.lmstudio/bin"
