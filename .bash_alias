@@ -1,5 +1,7 @@
 alias cp='cp -iv' # Prompts before overwriting files
-alias ls='ls --color=auto -alF' # List all files, including hidden files, with a nice format
+alias ls='ls --color=auto' # List all files, including hidden files, with a nice format
+alias la='ls --color=auto -lahF' # List all files, including hidden files, with a nice format
+alias ll='ls --color=auto -ltrh' # List all files, including hidden files, with a nice format
 alias mv='mv -iv' # Prompts before overwriting files
 alias rm='rm -v'
 alias mkdir='mkdir -pv' # Create directories, including parent directories if necessary

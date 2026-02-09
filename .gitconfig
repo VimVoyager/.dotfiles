@@ -4,8 +4,13 @@
 [alias]
         st = status
         ch = checkout
+	cb = checkout -b
+	sw = switch
+	sc = switch -c
         co = commit
-        cm = commit -m
+	cm = commit -m
+	ca = commit -a
+	cam = commit -am
         p = push
 	pl = pull
         fuck = reset --hard

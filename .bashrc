@@ -7,11 +7,13 @@ if [ -e $HOME/.bash_alias ]; then
     source $HOME/.bash_alias
 fi
 
-if [ -f ~/.bash_prompt ]; then
-    source ~/.bash_prompt
+if [ -f $HOME/.bash_prompt ]; then
+    source $HOME/.bash_prompt
 fi
 
 test -s ~/.alias && . ~/.alias || true
+
+tmux
 
 # Color codes
 white=$(tput setaf 231) 
@@ -267,8 +269,8 @@ export PATH=$PATH:$DOTNET_ROOT:$DOTNET_ROOT/tools
 source ~/.bash_alias
 
 # Added by LM Studio CLI (lms)
-export PATH="$PATH:/home/leonard/.lmstudio/bin"
-export PATH=~/.npm-global/bin:$PATH
+export PATH="$PATH:$HOME/.lmstudio/bin"
+export PATH=$HOME/.npm-global/bin:$PATH
 
 # Android SDK PATH
 export ANDROID_HOME="/opt/android-sdk"
